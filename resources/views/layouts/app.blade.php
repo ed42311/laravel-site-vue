@@ -53,6 +53,9 @@
 
                                 <ul class="dropdown-menu">
                                     <li>
+                                        <a href="{{ route('inputSong') }}">
+                                            Add Songs
+                                        </a>
                                         <a href="{{ route('interest') }}">
                                             Interest
                                         </a>

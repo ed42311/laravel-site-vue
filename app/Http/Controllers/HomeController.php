@@ -25,4 +25,14 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+    /**
+     * This is the input song page.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function inputSong()
+    {
+        return view('inputSong');
+    }
 }
